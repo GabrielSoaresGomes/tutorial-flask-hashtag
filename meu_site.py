@@ -9,6 +9,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Essa é a página principal!"
+    return "Essa é a página principal! Vamos que vamos!"
 
-app.run()
+if __name__ == "__main__": #Quando rodar o arquivo direto(abrindo o .py no terminal por exemplo), irá rodar essa função
+    app.run(debug=True)
