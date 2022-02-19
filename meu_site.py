@@ -25,3 +25,6 @@ def usuarios(nome_usuario):
 
 if __name__ == "__main__": #Quando rodar o arquivo direto(abrindo o .py no terminal por exemplo), irá rodar essa função
     app.run(debug=True)
+
+
+    # servidor heroku

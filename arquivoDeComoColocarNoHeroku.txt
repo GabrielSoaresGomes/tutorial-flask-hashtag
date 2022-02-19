@@ -1,0 +1,13 @@
+1º - instalar o heroku cli no computador
+2º - Fazer o login no heroku ($heroku login)
+3º - Criar o arquivo Procfile sem extensão e colocar nele web: gunicorn nome_do_arquivo_principal:app
+4º - Intalar o gunicorn (pip install gunicorn)
+5º - Criar o arquivo requirements.txt (pip freeze > requirements.txt)
+6º - utilizar git init (caso não seja um repositório git)
+7º - Utilizar $heroku git:remote -a siteflaskyoutubehashtag (nesse caso esse é o nome da aplicação no heroku)
+
+-----
+Para atualizações:
+1ª - $git add .
+2º - $git commit -m "Mensagem de commit"
+3º - $git push heroku master
