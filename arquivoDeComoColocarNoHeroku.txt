@@ -10,4 +10,4 @@
 Para atualizações:
 1ª - $git add .
 2º - $git commit -m "Mensagem de commit"
-3º - $git push heroku master
+3º - $git push heroku main
